@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container mx-auto ">
+    <div class="container mx-auto">
       <setHeader />
       <router-view />
     </div>

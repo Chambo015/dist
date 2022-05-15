@@ -6,11 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        techonodom: "#000372",
         main: "rgb(255, 105, 0)"
       },
+      width: {
+        th: "32%"
+      },
       fontFamily: {
-        inter: "'Inter', sans-serif",
+        montserrat: "'Montserrat', sans-serif",
       }
     },
   },

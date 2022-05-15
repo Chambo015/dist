@@ -1,160 +1,4 @@
 {
-  "mountains": [
-    {
-      "id": 1,
-      "title": "Aconcagua",
-      "description": "Aconcagua is a mountain in the Principal Cordillera of the Andes mountain range, in Mendoza Province, Argentina. It is the highest mountain in the Americas and the highest outside of Asia, being the highest in both the Southern and Western Hemispheres with a summit elevation of 6,960.8 metres.",
-      "height": "6,962 m",
-      "countries": [
-        "Argentina"
-      ],
-      "continent": "South America",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Aconcagua2016.jpg/600px-Aconcagua2016.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/aconcagua",
-      "slug": "aconcagua",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    },
-    {
-      "id": 2,
-      "title": "Denali",
-      "description": "Denali is the highest mountain peak in North America, with a summit elevation of 20,310 feet above sea level. With a topographic prominence of 20,156 feet and a topographic isolation of 4,629 miles, Denali is the third most prominent and third most isolated peak on Earth, after Mount Everest and Aconcagua.",
-      "height": "6,190 m",
-      "countries": [
-        "Alaska"
-      ],
-      "continent": "North America",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/denali",
-      "slug": "denali",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    },
-    {
-      "id": 3,
-      "title": "Mont Blanc",
-      "description": "Mont Blanc is the highest mountain in the Alps and the highest in Europe west of the Caucasus peaks of Russia and Georgia. It rises 4,808 m above sea level and is ranked 11th in the world in topographic prominence.",
-      "height": "4,810 m",
-      "countries": [
-        "France",
-        "Italy"
-      ],
-      "continent": "Europe",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mont-Blanc_from_Planpraz_station.jpg/600px-Mont-Blanc_from_Planpraz_station.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/mount-blanc",
-      "slug": "mount-blanc",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    },
-    {
-      "id": 4,
-      "title": "Mount Everest",
-      "description": "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point",
-      "height": "8,848 m",
-      "countries": [
-        "China",
-        "Nepal"
-      ],
-      "continent": "Asia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Everest_kalapatthar.jpg/600px-Everest_kalapatthar.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/mount-everest",
-      "slug": "mount-everest",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    },
-    {
-      "id": 5,
-      "title": "Mount Kilimanjaro",
-      "description": "Mount Kilimanjaro is a dormant volcano in Tanzania. It has three volcanic cones: Kibo, Mawenzi and Shira. It is the highest mountain in Africa and the highest single free-standing mountain in the world: 5,895 metres above sea level and about 4,900 metres above its plateau base.",
-      "height": "5,895 m",
-      "countries": [
-        "Tanzania"
-      ],
-      "continent": "Africa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mont-Blanc_from_Planpraz_station.jpg/600px-Mont-Blanc_from_Planpraz_station.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/mount-kilimanjaro",
-      "slug": "mount-kilimanjaro",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    },
-    {
-      "id": 6,
-      "title": "Mount Kosciuszko",
-      "description": "Mount Kosciuszko is mainland Australia's highest mountain, at 2,228 metres above sea level. It is located on the Main Range of the Snowy Mountains in Kosciuszko National Park, part of the Australian Alps National Parks and Reserves in New South Wales.",
-      "height": "2,228 m",
-      "countries": [
-        "Australia"
-      ],
-      "continent": "Australia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sunrise_views_from_the_summit_of_Mount_Kosciuszko%2C_Kosciuszko_National_Park_56.jpg/600px-Sunrise_views_from_the_summit_of_Mount_Kosciuszko%2C_Kosciuszko_National_Park_56.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/mount-kosciuszko",
-      "slug": "mount-kosciuszko",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    },
-    {
-      "id": 7,
-      "title": "Vinson Massif",
-      "description": "Vinson Massif is a large mountain massif in Antarctica that is 21 km long and 13 km wide and lies within the Sentinel Range of the Ellsworth Mountains. It overlooks the Ronne Ice Shelf near the base of the Antarctic Peninsula. The massif is located about 1,200 kilometres from the South Pole.",
-      "height": "4,892 m",
-      "countries": [
-        "Antarctic"
-      ],
-      "continent": "Antarctic",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mount_Vinson_from_NW_at_Vinson_Plateau_by_Christian_Stangl_%28flickr%29.jpg/600px-Mount_Vinson_from_NW_at_Vinson_Plateau_by_Christian_Stangl_%28flickr%29.jpg",
-      "dir": "/mountains",
-      "path": "/mountains/vinson-massif",
-      "slug": "vinson-massif",
-      "updatedAt": "2020-12-11T15:40:35.000Z"
-    }
-  ],
-  "games": [
-    {
-      "id": 1,
-      "title": "ELDEN RING",
-      "description": "A New World Created By Hidetaka Miyazaki And George R. R. Martin. ELDEN RING, developed by FromSoftware, Inc. and BANDAI NAMCO Entertainment Inc., is a fantasy action-RPG adventure set within a world created by Hidetaka Miyazaki creator of the influential DARK SOULS video game series; and George R.R. Martin author of The New York Times best-selling fantasy series, A Song of Ice and Fire. Danger and discovery lurk around every corner in FromSoftware's largest game to-date. Hidetaka Miyazaki, President and Game Director of FromSoftware Inc. Known for directing critically-acclaimed games in beloved franchises including Armored Core, Dark Souls, and Sekiro: Shadows Die Twice. George R.R. Martin is the #1 New York Times bestselling author of many novels, including the acclaimed series A Song of Ice and Fire - A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast For Crows, and A Dance with Dragons. As a writer-producer, he has worked on The Twilight Zone, Beauty and the Beast, and various feature films and pilots that were never made",
-      "image": "https://static.metacritic.com/images/products/games/7/cf21bb68e9006d17f7b7bff4cdafe6f6-98.jpg",
-      "metascore": 96,
-      "genre": "Role-Playing, Action RPG",
-      "video": "https://mt-rv-v1.gamespot.com/vr/2022/03/04/trailer_eldenring_lore_8000.mp4"
-    },
-    {
-      "id": 2,
-      "title": "GOD OF WAR",
-      "description": "The God of War has changed... and this is not the Kratos you know. A difficult and unfamiliar road awaits as you explore a stunning retelling of a classic story. Join Kratos as he adventures through a deep and reflective journey of growth, violence and the desire to become a better man for the sake of his son. In a world of monsters, dragons and gods, the weight of responsibility rests heavy on your shoulders -- and when your life is filled with blood and chaos, how can you prevent the mistakes of the past in order to protect your future?",
-      "image": "https://static.metacritic.com/images/products/games/1/d7bc93f705395a7d9cf86e9e4e572607-98.jpg",
-      "metascore": 93,
-      "genre": "Action Adventure, Linear",
-      "video": "https://mt-rv-v1.gamespot.com/vr/2021/10/20/god_of_war_announce_trailer_8000.mp4"
-    },
-    {
-      "id": 3,
-      "title": "UNCHARTED: LEGACY OF THIEVES COLLECTION",
-      "description": "UNCHARTED: Legacy of Thieves Collection includes UNCHARTED 4: A Thief’s End and UNCHARTED: The Lost Legacy remastered for PS5™. Play as Nathan Drake and Chloe Frazer in their own standalone adventures as they are forced to confront their pasts and forge their own legacies.",
-      "image": "https://static.metacritic.com/images/products/games/7/cc80ae9984fed15d4a299abe94912286-98.jpg",
-      "metascore": 87,
-      "genre": "Miscellaneous, Compilation",
-      "video": "https://mt-rv-v1.gamespot.com/vr/2022/01/21/trailer_unchartedcollection_PS5_8000.mp4"
-    },
-    {
-      "id": 4,
-      "title": "HORIZON FORBIDDEN WEST",
-      "description": "Join Aloy as she braves the Forbidden West – a majestic but dangerous frontier that conceals mysterious new threats. Explore distant lands, fight bigger and more awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future, post-apocalyptic world of Horizon. The land is dying. Vicious storms and an unstoppable blight ravage the scattered remnants of humanity, while fearsome new machines prowl their borders. Life on Earth is hurtling towards another extinction, and no one knows why. It's up to Aloy to uncover the secrets behind these threats and restore order and balance to the world. Along the way, she must reunite with old friends, forge alliances with warring new factions and unravel the legacy of the ancient past – all the while trying to stay one step ahead of a seemingly undefeatable new enemy.",
-      "image": "https://static.metacritic.com/images/products/games/9/4cd90ac52da600eac9dfd606f5c94861-98.jpg",
-      "metascore": 88,
-      "genre": "Role-Playing, Action Adventure, Action RPG, Open-World",
-      "video": "https://mt-rv-v1.gamespot.com/vr/2021/12/16/trailer_horizonFBtrailer2_5000.mp4"
-    },
-    {
-      "id": 5,
-      "title": "CRUSADER KINGS III: CONSOLE EDITION",
-      "description": "Paradox Development Studio brings you the sequel to one of the most popular strategy games ever made. Crusader Kings III is the heir to a long legacy of historical grand strategy experiences and arrives with a host of new ways to ensure the success of your royal house.",
-      "image": "https://static.metacritic.com/images/products/games/3/4f568956f98a9959c88eac9132de80a7-98.jpg",
-      "metascore": 88,
-      "genre": "Strategy, Real-Time, General",
-      "video": "https://mt-rv-v1.gamespot.com/vr/2021/08/24/trailer_crusaderkings3_xbox_8000.mp4"
-    }
-  ],
   "pizza": [
     {
       "id": 1,
@@ -166,21 +10,21 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/0de3f153379b4c96b1042069fd8dc83c_760x760.jpeg"
       ],
-      "ingredients": [
+      "ingridients": [
         {
           "title": "Сырный бортик",
-          "price": 900,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": "800",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Острый халапеньо",
-          "price": 250,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "price": "250",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
         },
         {
           "title": "Чеддер и пармезан",
-          "price": 350,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "price": "350",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
         }
       ]
     },
@@ -194,21 +38,21 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/511d2e88d8534e5c8a4476d5453dc46b_760x760.jpeg"
       ],
-      "ingredients": [
+      "ingridients": [
         {
           "title": "Сырный бортик",
-          "price": 900,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": "800",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Острый халапеньо",
-          "price": 250,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "price": "250",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Чеддер и пармезан",
-          "price": 350,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "price": "350",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         }
       ]
     },
@@ -222,21 +66,21 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/3f04cc04329c4fe48a5c7f5e7e18dc64_760x760.jpeg"
       ],
-      "ingredients": [
+      "ingridients": [
         {
           "title": "Сырный бортик",
-          "price": 900,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": "800",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Острый халапеньо",
-          "price": 250,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "price": "250",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Чеддер и пармезан",
-          "price": 350,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "price": "350",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         }
       ]
     },
@@ -250,21 +94,21 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/0de3f153379b4c96b1042069fd8dc83c_760x760.jpeg"
       ],
-      "ingredients": [
+      "ingridients": [
         {
           "title": "Сырный бортик",
-          "price": 900,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": "800",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Острый халапеньо",
-          "price": 250,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "price": "250",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Чеддер и пармезан",
-          "price": 350,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "price": "350",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         }
       ]
     },
@@ -278,118 +122,106 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/fbf3106adb954e8b86ca0107582eaf64_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/b6ab96ff1dd44cf8a76b0e4e39d67185_760x760.jpeg"
       ],
-      "ingredients": [
+      "ingridients": [
         {
           "title": "Сырный бортик",
-          "price": 900,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": "800",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Острый халапеньо",
-          "price": 250,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "price": "250",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         },
         {
           "title": "Чеддер и пармезан",
-          "price": 350,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "price": "350",
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
         }
       ]
     }
   ],
-  "cities": {
-    "select": "Актау",
-    "data": [
-      "Нур-Султан",
-      "Алматы",
-      "Караганда",
-      "Актау"
-    ]
-  },
   "users": [
     {
       "id": 1,
-      "login": "Alidarov",
+      "login": "alidarov",
       "name": "Olzhas",
       "password": "123",
-      "phone": "87014039543"
+      "phone": "87472367503"
     },
     {
       "id": 2,
-      "login": "era",
-      "name": "Will",
-      "password": "12345",
-      "phone": "87012221133"
+      "login": "qwerty",
+      "name": "asd",
+      "password": "321",
+      "phone": "87472367503"
     },
     {
-      "login": "chambo",
-      "phone": "877777777",
-      "name": "Era",
-      "password": "qwer",
+      "login": "olzhas",
+      "phone": "12345789",
+      "name": "Олжас",
+      "password": "qwerty",
       "id": 3
     }
   ],
   "orders": [
     {
-      "id": 1,
-      "title": "Домашняя",
-      "desc": "Пикантная пепперони из цыпленка, ветчина из цыпленка, маринованные огурчики, томаты, моцарелла, томатный соус",
-      "price": "2300",
-      "images": [
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/271813ff44fc41588760b93201eb08a5_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/0de3f153379b4c96b1042069fd8dc83c_760x760.jpeg"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Овощи гриль",
-      "desc": "Овощи гриль, томаты, красный лук, моцарелла, соус песто, томатный соус, чеснок",
-      "price": "2500",
-      "images": [
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/68babbf959544c3bb6c01ad062287c17_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/511d2e88d8534e5c8a4476d5453dc46b_760x760.jpeg"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Овощи гриль",
-      "desc": "Овощи гриль, томаты, красный лук, моцарелла, соус песто, томатный соус, чеснок",
-      "price": "2500",
-      "images": [
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/68babbf959544c3bb6c01ad062287c17_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/511d2e88d8534e5c8a4476d5453dc46b_760x760.jpeg"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Классическая",
-      "desc": "Увеличенная порция моцареллы, томатный соус",
-      "price": "1800",
-      "images": [
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/82f48599cecf4663864f38346e49ce94_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/3f04cc04329c4fe48a5c7f5e7e18dc64_760x760.jpeg"
-      ],
-      "ingredients": [
+      "products": [
         {
-          "title": "Сырный бортик",
-          "price": 900,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "title": "Классическая",
+          "price": 2800,
+          "ingridients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
         },
         {
-          "title": "Острый халапеньо",
-          "price": 250,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "title": "Классическая",
+          "price": 2800,
+          "ingridients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
         },
         {
-          "title": "Чеддер и пармезан",
-          "price": 350,
-          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "title": "Классическая",
+          "price": 2800,
+          "ingridients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
+        },
+        {
+          "title": "Классическая",
+          "price": 3600,
+          "ingridients": [
+            {
+              "title": "Сырный бортик",
+              "price": "800",
+              "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
         }
-      ]
+      ],
+      "totalOfProducts": 12000,
+      "user_login": null,
+      "status": true,
+      "id": 1
+    },
+    {
+      "products": [
+        {
+          "title": "Классическая",
+          "price": 2800,
+          "ingridients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
+        },
+        {
+          "title": "Домашняя",
+          "price": 0,
+          "ingridients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg"
+        }
+      ],
+      "totalOfProducts": 2800,
+      "user_login": null,
+      "status": false,
+      "id": 2
     }
   ]
 }
