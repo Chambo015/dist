@@ -222,10 +222,10 @@
     >
       <div
         v-if="activeOrder && activeOrder.products.length"
-        class="absolute right-0 top-0 w-1/4 bg-slate-200 h-full flex flex-col pt-5"
+        class="absolute right-0 top-0 w-full lg:w-1/4 bg-slate-200 h-full flex flex-col pt-5"
       >
         <i
-          class="fa-solid fa-x text-4xl absolute top-1/2 cursor-pointer font-bold text-white -left-10"
+          class="fa-solid fa-x lg:text-4xl text-2xl absolute lg:top-1/2 cursor-pointer font-bold text-black lg:text-white lg:-left-10 right-4 top-4"
           @click="showCart = 0"
         ></i>
         <p class="px-3 text-xl font-medium">
@@ -277,7 +277,7 @@
       </div>
       <div
         v-else
-        class="absolute right-0 top-0 w-1/4 bg-slate-200 h-full flex justify-center items-center flex-col pt-5"
+        class="absolute right-0 top-0 bg-slate-200 h-full flex justify-center items-center flex-col pt-5 w-full lg:w-1/4"
       >
         <img
           class="w-3/4"
@@ -290,7 +290,7 @@
           доставим ваш заказ от 3 000 тг.
         </p>
         <i
-          class="fa-solid fa-x text-4xl absolute top-1/2 cursor-pointer font-bold text-white -left-10"
+          class="fa-solid fa-x text-4xl absolute lg:top-1/2 cursor-pointer font-bold text-black lg:text-white lg:-left-10 right-4 top-4"
           @click="showCart = 0"
         ></i>
       </div>

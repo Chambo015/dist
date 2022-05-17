@@ -264,8 +264,30 @@
       "id": 2
     },
     {
-      "products": [],
-      "totalOfProducts": 0,
+      "products": [
+        {
+          "title": "Домашняя",
+          "price": 4450,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Сырный бортик",
+              "price": 900,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+              "id": 1
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
+          "size": 1,
+          "id": 1
+        }
+      ],
+      "totalOfProducts": 4450,
       "user_login": null,
       "status": false,
       "id": 3

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-start justify-center px-4 lg:px-0 flex-col lg:flex-row">
+  <div class="flex items-start justify-center px-4 lg:px-0 flex-col lg:flex-row mt-4 lg:mt-0">
     <div class="w-full lg:w-2/5 m-auto flex   items-center justify-center py-3 h-vw-9 lg:h-550">
      
         <transition name="fade"  mode="out-in">
