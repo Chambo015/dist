@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-between my-5 px-4 lg:px-0">
     <div class="flex">
-      <svg @click="$router.push('/')" class="h-11 lg:mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 44.59">
+      <svg @click="$router.push('/')" class="h-11 lg:mr-8 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 44.59">
         <path d="M238,14.4a9.16,9.16,0,0,1-2.55-.33l2.49-5.55,2.49,5.55a8.34,8.34,0,0,1-2.44.33h0Zm8.81,4.22L240.95,5.93a3,3,0,0,0-2.88-2h-0.22a3,3,0,0,0-2.94,2l-5.82,12.71a2,2,0,0,0,3.22,2.44,2,2,0,0,0,.43-0.67l1.33-2.79a13.34,13.34,0,0,0,4,.61,11.28,11.28,0,0,0,3.82-.58l1.28,2.79a2,2,0,0,0,2.66,1.05,2,2,0,0,0,.93-2.83v0Zm-21-1.12h-1.11V5.82a2.05,2.05,0,0,0-2.14-2.1,2,2,0,0,0-2.11,2.11V17.48H213V5.82a2.16,2.16,0,1,0-4.32,0V19.51a2,2,0,0,0,2.11,2.11h12.91v1.89a2,2,0,0,0,2.11,2.11,2,2,0,0,0,2-1.28,2,2,0,0,0,.12-0.83V19.58a1.92,1.92,0,0,0-2.11-2.11Zm-21.48,0h-1.11V5.82A2.05,2.05,0,0,0,201,3.72a2,2,0,0,0-2.11,2.11V17.48h-7.42V5.82a2.16,2.16,0,1,0-4.32,0V19.51a2,2,0,0,0,2.11,2.11h12.91v1.89a2,2,0,0,0,2.11,2.11,2,2,0,0,0,2.11-2.11V19.58A1.92,1.92,0,0,0,204.32,17.48ZM180.43,3.88h-0.17c-1.28,0-2.11.61-3,1.89l-7,9.93V6a2.09,2.09,0,1,0-4.18,0V19.2a2.24,2.24,0,0,0,2.38,2.39h0.22a3.53,3.53,0,0,0,3-1.89l7-9.93v9.71a2.05,2.05,0,1,0,4.1,0V6.27a2.23,2.23,0,0,0-2.44-2.39h0Zm-20.87,0h-12A2,2,0,0,0,145.48,6V19.7a2.05,2.05,0,0,0,.62,1.53,2,2,0,0,0,1.54.58,2,2,0,0,0,2.11-2.11V8h7.65V19.7a2,2,0,0,0,2.16,2.11,2.07,2.07,0,0,0,2.16-2.17V5.93A2,2,0,0,0,159.56,3.88ZM128.61,17.75a4.74,4.74,0,0,1-4.82-5,4.75,4.75,0,0,1,4.82-4.94,4.72,4.72,0,0,1,4.82,4.94A4.73,4.73,0,0,1,128.61,17.75Zm0-14a8.89,8.89,0,0,0-9.09,9,8.85,8.85,0,0,0,9.09,9,9,9,0,0,0,9.09-9.1A8.87,8.87,0,0,0,128.61,3.77ZM111.15,17.48h-7a13.55,13.55,0,0,0,1.05-3,25,25,0,0,0,.46-4.39L105.77,8h5.43Zm5.38,0h-1.11V6a2,2,0,0,0-.13-0.82,2,2,0,0,0-2-1.29h-9.81A1.88,1.88,0,0,0,101.57,6V8.78a25.64,25.64,0,0,1-.41,5.2,8.64,8.64,0,0,1-1.39,3.49H99.3a1.91,1.91,0,0,0-2.05,2.11v3.94a2,2,0,0,0,2.11,2.11,2,2,0,0,0,2.11-2.11V21.64h12.91v1.89a2,2,0,0,0,2.09,2.11,2,2,0,0,0,2.11-2.11V19.58a1.86,1.86,0,0,0-2.05-2.11h0Zm-28.77.28a4.74,4.74,0,0,1-4.82-5,4.82,4.82,0,1,1,9.64,0A4.7,4.7,0,0,1,87.76,17.75Zm0-14a8.89,8.89,0,0,0-9.09,9,8.84,8.84,0,0,0,9.1,9,9,9,0,0,0,9.09-9.1,8.8,8.8,0,0,0-9.09-9v0ZM70.2,17.45h-7a13.53,13.53,0,0,0,1.05-3,24.88,24.88,0,0,0,.46-4.39L64.82,8h5.43Zm5.38,0H74.47V6a2,2,0,0,0-2.11-2.11H62.56A1.88,1.88,0,0,0,60.62,6V8.78A22.12,22.12,0,0,1,60.23,14a8.64,8.64,0,0,1-1.39,3.49H58.37a1.91,1.91,0,0,0-2.05,2.11v3.94a2,2,0,0,0,2.15,2.1,2,2,0,0,0,2.11-2.11V21.64H73.49v1.89a2,2,0,0,0,2.11,2.11,2,2,0,0,0,2.11-2.11V19.58a1.92,1.92,0,0,0-2.11-2.11"></path>
         <path style="fill:#ff6900" d="M19.78,0C32.63,0,42.51,8.86,42.51,22s-9.88,22.3-22.74,22.3H5.33A5.1,5.1,0,0,1,0,39V5.52A5.25,5.25,0,0,1,5.33,0H19.78Z"></path>
         <path d="M34.57,17.23c-0.07.55-.69,0.55-1,0.07-0.9-1.52-2.07-1.8-3.94-1.94-1.39-.07-3,0.07-4.56.07H25l-0.11-.06a0.31,0.31,0,0,1-.11-0.21c0.28-1.31,1.39-3.72,2.56-3.94,0.55-.07,1.8-0.21,2.49-0.21C33,11,34.71,14.67,34.57,17.23Zm-18,12.55a22.11,22.11,0,0,0,7.19.69,19.13,19.13,0,0,0,8.92-2.91c-1,2.64-5,4.28-8.71,4.69,0,0.21-.07.34-0.07,0.55a14.91,14.91,0,0,0,6.77-1.94c-0.69,2.56-4.15,3.6-7.33,3.81a4.09,4.09,0,0,1-.28.55,15.88,15.88,0,0,0,4.64-.62c-1.46,2.7-7.68,4.57-12.93,2.1a16.62,16.62,0,0,0,1.8-6.92h0ZM33.95,11.35a6.07,6.07,0,0,0-4.36-1.66c-2.07,0-3.8.55-6.36,0.62-1.73.07-3.32-3.72-5.39-4.22a2.69,2.69,0,0,0-4.21-1.24c-1.17-.69-3-0.34-3,1-1.31-.41-3,0.28-2.28,2.08-3.25.07-3.8,3-1.66,3.25C3.8,12.74,5.12,15.51,7.47,15c0.42,4.15,2.28,9.55-.76,10.87a8.14,8.14,0,0,1-4.36-.14L0,25.06V27.2A21.34,21.34,0,0,0,6,28c4-.41,4.22-3.72,4-6.64s-1.17-6.16-.83-8.51l-0.14-.14c-1.45,1.52-2.42,1.11-2.56.62C6.31,12.39,8,11.15,9,10.73c0-.07.07-0.14,0.07-0.21-0.9.14-2,0-2.07-.62s1.52-1.52,3.6-1.31c0.07,0,.07-0.07.14-0.07l-0.41-.21a0.72,0.72,0,0,1-.46-1,1.48,1.48,0,0,1,1.24-.46A4.63,4.63,0,0,1,13,7.22c0.07,0,.07-0.07.14-0.07a2.47,2.47,0,0,1-.41-0.41,0.53,0.53,0,0,1,0-.7,1.44,1.44,0,0,1,1.66.28l0.34,0.34h0.11l0.1-.06a0.75,0.75,0,0,1-.21-0.46A0.41,0.41,0,0,1,15,5.57a0.84,0.84,0,0,1,.83.34,3.38,3.38,0,0,1,.41.86A5.74,5.74,0,0,0,12,8.93a6.61,6.61,0,0,0-.83,5.68,40.57,40.57,0,0,0,2,6.23v0.07C14.85,25.68,18,37.44,2.63,43.68a6.33,6.33,0,0,0,2.56.62H6.78a20,20,0,0,0,6.84-5.67c7.05,3.11,13.46,1.52,16.24-3.6A6.77,6.77,0,0,0,33,30a5.19,5.19,0,0,0,1-4.48c-0.07-.28-0.34-0.28-0.76-0.07-5.74,3.46-10.78,4-16.8,2.22a45.53,45.53,0,0,0-.83-5.61c-0.14-2.42.62-3.6,5-2.15a13.71,13.71,0,0,1,5.25,2.79c0.46,0.34,1.1.76,1.45,0.46a1.33,1.33,0,0,0,.28-1,11.58,11.58,0,0,0-1.24-4.36,36.1,36.1,0,0,1,3.94,0,2.23,2.23,0,0,1,2,1.52c0.46,1.39,3.18,1,3.39-.14,0.41-2.42.55-5.61-1.8-7.82h0ZM3.25,32.11a25.44,25.44,0,0,0-3.25,0v1.45c1.86-.41,3-0.62,3-0.62Z"></path>
@@ -17,8 +17,8 @@
     <div>
       <button @click="showCart = 1" class="bg-main text-white py-2 px-4 rounded-full">Корзина | <span>{{ countOrders}}</span></button>
       <button v-if="currentUser === null" @click="showModalReg = 1" class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white">Зарегистрироваться</button>
-      <button v-if="currentUser === null" @click="showModal = 1" class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white ml-4">Войти</button>
-      <button v-if="currentUser != null" @click="showModal = 1" class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white ml-4">{{ currentUser }}</button>
+      <button v-if="currentUser === null" @click="showModal = 1" class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white ">Войти</button>
+      <button v-if="currentUser != null" @click="showModal = 1" class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white ">{{ currentUser }}</button>
     </div>
     <div v-if="showModal === 1" class="fixed bg-black w-full h-full top-0 left-0 bg-opacity-50">
       <div class="relative w-full h-full">
@@ -58,31 +58,39 @@
               <button @click="registerUser()" class="py-2 px-4 rounded-lg bg-main text-white">Войти</button>
               <button @click="showModal = 0" class="py-2 px-4 rounded-lg bg-gray-200">Закрыть</button>
             </div>
+    
           </div>
         </div>
       </div>
     </div>
-    <div v-if="showCart === 1" class="fixed bg-black w-full h-full top-0 left-0 bg-opacity-50" @click.self="showCart = 0">
-      <div v-if="activeOrder" class="absolute overflow-y-auto right-0 top-0 w-1/4 bg-slate-200 h-full pt-5">
-        <p class="px-3 text-xl font-medium">{{ activeOrder.products.length }} товара на {{ activeOrder.totalOfProducts }} тг.</p>
-        <div class="bg-white my-2 p-4" v-for="item of activeOrder.products" :key="item">
-          <div class="flex items-center pb-4 border-b-2 border-gray-200">
-            <img class="mr-5 w-1/5" :src="item.image" alt="">
-            <div>
-              <p class="text-lg font-medium mb-2">{{ item.title }}</p>
-              <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam dolores officiis architecto odit quas accusamus minus sed iste? Id reiciendis, at veritatis non quae eligendi sed. Nemo, inventore. Vitae?</p>
+    
+      <div v-show="showCart === 1" class="fixed bg-black w-full h-full top-0 left-0 bg-opacity-50" @click.self="showCart = 0">
+        <div v-if="activeOrder" class="absolute right-0 top-0 w-1/4 bg-slate-200 h-full flex flex-col pt-5">
+        <i class="fa-solid fa-x text-4xl absolute top-1/2 cursor-pointer font-bold text-white -left-10" @click="showCart = 0"></i>
+          <p class="px-3 text-xl font-medium">{{ activeOrder.products.length }} товара на {{ activeOrder.totalOfProducts }} тг.</p>
+          <div class="overflow-y-auto">
+            <div class="bg-white my-2 p-4" v-for="item of activeOrder.products" :key="item">
+              <div class="flex items-center pb-4 border-b-2 border-gray-200">
+                <img class="mr-5 w-1/5" :src="item.image" alt="">
+                <div>
+                  <p class="text-lg font-medium mb-2">{{ item.title }}</p>
+                  <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam dolores officiis architecto odit quas accusamus minus sed iste? Id reiciendis, at veritatis non quae eligendi sed. Nemo, inventore. Vitae?</p>
+                </div>
+              </div>
+              <div class="flex items-center text-lg font-medium justify-between mt-3">
+                <p>{{ item.price }}</p>
+                <p>0</p>
+              </div>
             </div>
           </div>
-          <div class="flex items-center text-lg font-medium justify-between mt-3">
-            <p>{{ item.price }}</p>
-            <p>0</p>
+          <div class="p-4 bg-white shadow-xl">
+            <button class="py-2 px-4 rounded-lg bg-slate-200 text-black w-full mb-5" @click="endOrder">Очистить</button>
+            <button class="py-2 px-4 rounded-lg bg-main text-white w-full" @click="endOrder()">Заказать</button>
           </div>
         </div>
-        <div class="p-4 bg-white shadow-xl">
-          <button class="py-2 px-4 rounded-lg bg-main text-white w-full" @click="endOrder()">Заказать</button>
-        </div>
       </div>
-    </div>
+      
+   
   </div>
 </template>
 
@@ -93,6 +101,7 @@ export default {
   name: "SetHeader",
   data() {
     return {
+      show: false,
       showCart: 0,
       showModal: 0,
       showModalReg: 0,

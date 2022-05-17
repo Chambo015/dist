@@ -10,21 +10,24 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/0de3f153379b4c96b1042069fd8dc83c_760x760.jpeg"
       ],
-      "ingridients": [
+      "ingredients": [
         {
           "title": "Сырный бортик",
-          "price": "800",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 900,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+          "id": 1
         },
         {
           "title": "Острый халапеньо",
-          "price": "250",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324"
+          "price": 250,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+          "id": 2
         },
         {
           "title": "Чеддер и пармезан",
-          "price": "350",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1"
+          "price": 350,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+          "id": 3
         }
       ]
     },
@@ -38,21 +41,24 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/511d2e88d8534e5c8a4476d5453dc46b_760x760.jpeg"
       ],
-      "ingridients": [
+      "ingredients": [
         {
           "title": "Сырный бортик",
-          "price": "800",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 900,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+          "id": 1
         },
         {
           "title": "Острый халапеньо",
-          "price": "250",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 250,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+          "id": 2
         },
         {
           "title": "Чеддер и пармезан",
-          "price": "350",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 350,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+          "id": 3
         }
       ]
     },
@@ -66,21 +72,24 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/3f04cc04329c4fe48a5c7f5e7e18dc64_760x760.jpeg"
       ],
-      "ingridients": [
+      "ingredients": [
         {
           "title": "Сырный бортик",
-          "price": "800",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 900,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+          "id": 1
         },
         {
           "title": "Острый халапеньо",
-          "price": "250",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 250,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+          "id": 2
         },
         {
           "title": "Чеддер и пармезан",
-          "price": "350",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 350,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+          "id": 3
         }
       ]
     },
@@ -94,21 +103,24 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/0de3f153379b4c96b1042069fd8dc83c_760x760.jpeg"
       ],
-      "ingridients": [
+      "ingredients": [
         {
           "title": "Сырный бортик",
-          "price": "800",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 900,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+          "id": 1
         },
         {
           "title": "Острый халапеньо",
-          "price": "250",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 250,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+          "id": 2
         },
         {
           "title": "Чеддер и пармезан",
-          "price": "350",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 350,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+          "id": 3
         }
       ]
     },
@@ -122,21 +134,24 @@
         "https://dodopizza-a.akamaihd.net/static/Img/Products/fbf3106adb954e8b86ca0107582eaf64_760x760.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/b6ab96ff1dd44cf8a76b0e4e39d67185_760x760.jpeg"
       ],
-      "ingridients": [
+      "ingredients": [
         {
           "title": "Сырный бортик",
-          "price": "800",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 900,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+          "id": 1
         },
         {
           "title": "Острый халапеньо",
-          "price": "250",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 250,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+          "id": 2
         },
         {
           "title": "Чеддер и пармезан",
-          "price": "350",
-          "image": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png"
+          "price": 350,
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+          "id": 3
         }
       ]
     }
@@ -216,12 +231,204 @@
           "price": 0,
           "ingridients": [],
           "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg"
+        },
+        {
+          "title": "Классическая",
+          "price": 4300,
+          "ingredients": [
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            },
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Сырный бортик",
+              "price": 900,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+              "id": 1
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg"
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 5100,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg"
+        },
+        {
+          "title": "Классическая",
+          "price": 1800,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 2500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg"
+        },
+        {
+          "title": "Домашняя",
+          "price": 4900,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg"
+        },
+        {
+          "title": "Домашняя",
+          "price": 2300,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg"
+        }
+      ],
+      "totalOfProducts": 27200,
+      "user_login": null,
+      "status": true,
+      "id": 2
+    },
+    {
+      "products": [
+        {
+          "title": "Домашняя",
+          "price": 4800,
+          "ingredients": [
+            {
+              "title": "Сырный бортик",
+              "price": 900,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+              "id": 1
+            },
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg"
+        }
+      ],
+      "totalOfProducts": 4800,
+      "user_login": null,
+      "status": true,
+      "id": 3
+    },
+    {
+      "products": [
+        {
+          "title": "Чикен бомбони",
+          "price": 5000,
+          "ingredients": [
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            },
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Сырный бортик",
+              "price": 900,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+              "id": 1
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/fbf3106adb954e8b86ca0107582eaf64_760x760.jpeg"
+        },
+        {
+          "title": "Чикен бомбони",
+          "price": 5000,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Сырный бортик",
+              "price": 900,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/6ddfe6ba104342928bf1b59acc8d508d.png",
+              "id": 1
+            },
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/fbf3106adb954e8b86ca0107582eaf64_760x760.jpeg"
+        }
+      ],
+      "totalOfProducts": 10000,
+      "user_login": null,
+      "status": true,
+      "id": 4
+    },
+    {
+      "products": [
+        {
+          "title": "Классическая",
+          "price": 2800,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/da0a83ee1bd248a28afe9565b59e1749_760x760.jpeg"
         }
       ],
       "totalOfProducts": 2800,
       "user_login": null,
       "status": false,
-      "id": 2
+      "id": 5
     }
   ]
 }

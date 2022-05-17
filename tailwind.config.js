@@ -1,4 +1,6 @@
-module.exports = {
+const withAnimations = require('animated-tailwindcss');
+
+module.exports = withAnimations({
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -13,8 +15,13 @@ module.exports = {
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
-      }
+      },
+      backgroundColor: {
+        bgRadio: 'rgb(243, 243, 247)',
+      },
+      
     },
   },
-  plugins: [],
-}
+  plugins: [
+  ]
+})

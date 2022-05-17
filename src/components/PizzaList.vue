@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap justify-between">
-    <div @click="$router.push({ name: 'single', params: { id: obj.id } })" class="w-full lg:w-1/4 p-4 my-3" v-for="obj of pizzas" :key="obj.id">
-      <img :src="obj.images[1]" alt="">
+    <div @click="$router.push({ name: 'single', params: { id: obj.id } })" class="w-full lg:w-1/4 p-4 my-3 cursor-pointer group" v-for="obj of pizzas" :key="obj.id">
+      <img class="group-hover:translate-y-1" :src="obj.images[1]" alt="">
       <div>
         <p class="text-2xl font-medium">{{ obj.title }}</p>
         <p class="text-sm h-24 my-3">{{ obj.desc }}</p>

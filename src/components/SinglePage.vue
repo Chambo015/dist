@@ -1,28 +1,27 @@
 <template>
-  <div class="block lg:flex items-start justify-start px-4 lg:px-0">
-    <div class="w-full lg:w-1/3 h-96 flex items-center justify-center">
-      <img v-if="pizzaSize === 0" class="w-2/3" :src="pizzas[curID].images[0]" alt="">
-      <img v-if="pizzaSize === 1" class="w-3/4" :src="pizzas[curID].images[1]" alt="">
+  <div class="flex items-start justify-center px-4 lg:px-0 flex-col lg:flex-row">
+    <div class="w-full lg:w-2/5 flex items-center justify-center m-auto shrink-0">
+      <transition name="fade"  mode="out-in">
+        <img v-if="pizzaSize === 0" class="w-3/4" :src="pizzas[curID].images[0]" alt="">
+      <img v-if="pizzaSize === 1" class="w-5/6 " :src="pizzas[curID].images[1]" alt="">
       <img v-if="pizzaSize === 2" class="w-full" :src="pizzas[curID].images[2]" alt="">
+      </transition>
     </div>
-    <div>
+    <div class="lg:px-5 lg:w-2/5 lg:mr-auto mb-9 lg:mb-0">
       <h1 class="text-2xl font-medium mb-5">{{ pizzas[curID].title }}</h1>
       <p>{{ pizzas[curID].desc }}</p>
-      <div class="flex mt-5 justify-between w-full lg:w-1/2 bg-slate-200 p-2 rounded-xl mx-auto">
-        <p @click="pizzaSize = 0, setPizzaPrice()" :class="{ 'bg-white rounded-2xl' : pizzaSize === 0 }" class="hover:cursor-pointer p-2">Маленькая</p>
-        <p @click="pizzaSize = 1, setPizzaPrice()" :class="{ 'bg-white rounded-2xl' : pizzaSize === 1 }" class="hover:cursor-pointer p-2">Средняя</p>
-        <p @click="pizzaSize = 2, setPizzaPrice()" :class="{ 'bg-white rounded-2xl' : pizzaSize === 2 }" class="hover:cursor-pointer p-2">Большая</p>
+      <div class="flex mt-5 justify-around w-full lg:w-3/4 bg-bgRadio p-2 rounded-full mx-auto">
+        <p @click="pizzaSize = 0" :class="{ 'bg-white rounded-2xl' : pizzaSize === 0 }" class="hover:cursor-pointer p-2 text-sm">Маленькая</p>
+        <p @click="pizzaSize = 1" :class="{ 'bg-white rounded-2xl' : pizzaSize === 1 }" class="hover:cursor-pointer text-sm p-2">Средняя</p>
+        <p @click="pizzaSize = 2" :class="{ 'bg-white rounded-2xl' : pizzaSize === 2 }" class="hover:cursor-pointer text-sm p-2">Большая</p>
       </div>
-      <div class="flex justify-between flex-wrap">
-        <div @click="addIng(ing)" :class="{ 'border border-main' : ingList.includes(ing) }" class="w-th mt-5 p-3 shadow-xl rounded-xl" 
-          v-for="ing of pizzas[curID].ingridients" :key="ing">
-          <img class="w-full" :src="ing.image" alt="">
+      <div class="flex justify-between flex-wrap ">
+        <div :class="{ 'border border-main' : ingList.includes(ing) }" class="w-th mt-5 p-3 shadow-xl rounded-xl" 
+          v-for="ing of pizzas[curID].ingredients" :key="ing.id">
+          <input hidden type="checkbox" :id="ing.title" :value="ing" v-model="ingList">
+          <label :for="ing.title"><img class="w-full" :src="ing.img" alt="">
           <p class="text-center text-sm mb-4">{{ ing.title }}</p>
-          <p class="text-center text-lg font-semibold">{{ ing.price }}</p>
-        </div>
-        <div @click="addIng(ing)" :class="{ 'border border-main' : ingList.includes(ing) }" class="w-th mt-5 p-3 shadow-xl rounded-xl" 
-          v-for="ing of pizzas[curID].ingridients" :key="ing">
-          <input type="checkbox" v-model="ingList">
+          <p class="text-center text-lg font-semibold">{{ ing.price }}</p></label>
         </div>
       </div>
       <button @click="sendOrder()" class="bg-main text-white rounded-xl p-2 w-1/2 block mx-auto mt-5">Добавить в корзину {{ totalPrice }}</button>
@@ -41,9 +40,6 @@ export default {
       pizzaSize: 1,
       curID: this.$route.params.id - 1,
       ingList: [],
-      totalIngPrice: 0,
-      totalSizePrice: 0,
-      totalPrice: 0,
       currentUser: localStorage.getItem('loggedUser')
     }
   },
@@ -51,27 +47,36 @@ export default {
     await this.$store.dispatch('getPizzasAsync')
     await this.$store.dispatch('getOrdersAsync')
 
-    this.totalSizePrice = Number(this.pizzas[this.curID].price) + 1000
-    this.totalPrice = this.totalSizePrice
   },
   computed: {
+    totalIngPrice() {
+      if(this.ingList.length) {
+        return this.ingList.reduce((a, e) =>  a + e.price, 0)
+      } else {
+        return 0
+      }
+    },
+    totalSizePrice() {
+      switch(this.pizzaSize){
+        case 0: 
+          return Number(this.pizzas[this.curID].price) 
+        case 2: 
+          return Number(this.pizzas[this.curID].price) + 2000
+        default:
+          return Number(this.pizzas[this.curID].price) + 1000
+      }
+    },
+    totalPrice() {
+      return this.totalIngPrice + this.totalSizePrice
+    },
     ...mapGetters(['pizzas']),
     ...mapState(['order']),
   },
+  
   methods: {
     addIng(item) {
       this.ingList.push(item)
       this.totalIngPrice = this.totalIngPrice + parseInt(item.price)
-      this.totalPrice = this.totalIngPrice + this.totalSizePrice
-    },
-    setPizzaPrice() {
-      if (this.pizzaSize === 0) {
-        this.totalSizePrice = Number(this.pizzas[this.curID].price)
-      } else if (this.pizzaSize === 1) {
-        this.totalSizePrice = Number(this.pizzas[this.curID].price) + 1000
-      } else {
-        this.totalSizePrice = Number(this.pizzas[this.curID].price) + 2000
-      }
       this.totalPrice = this.totalIngPrice + this.totalSizePrice
     },
     async sendOrder() {
@@ -81,7 +86,7 @@ export default {
         let newOrder = {
           title: this.pizzas[this.curID].title,
           price: this.totalPrice,
-          ingridients: this.ingList,
+          ingredients: this.ingList,
           image: this.pizzas[this.curID].images[1]
         }
         currentOrder.products.push(newOrder)
@@ -97,7 +102,7 @@ export default {
             {
               title: this.pizzas[this.curID].title,
               price: this.totalPrice,
-              ingridients: this.ingList,
+              ingredients: this.ingList,
               image: this.pizzas[this.curID].images[1]
             }
           ],

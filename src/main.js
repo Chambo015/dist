@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import './assets/fonts.css'
 import './assets/main.less'
 
+
 Vue.config.productionTip = false
 
 new Vue({
