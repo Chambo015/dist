@@ -43,3 +43,19 @@ body {
   opacity: 0;
   transform: translateX(100%);
 }
+
+.abs-city  {
+  position: absolute;
+}
+.cart-item {
+  transition: transform 1s;
+}
+.flip-list-enter-active, .flip-list-leave-active {
+  transition: all .5s;
+  position: absolute;
+}
+.flip-list-enter, .flip-list-leave-to /* .list-leave-active до версии 2.1.8 */ {
+  opacity: 0;
+  transform: translateX(30px);
+}
+

@@ -15,9 +15,11 @@ export default {
         orders: []
     },
     getters: {
-        order: state => currentUser => {
+        order: state => (currentUser, i) => {
             let order = state.orders.find(order => order.status === false && order.user_login == currentUser)
+            if (i) return order.id
             return order
         }
+        
     }
 }

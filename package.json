@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "db": "json-server db.json --watch --port=3001"
+    "db": "json-server db.json --watch --port=3001 --routes routes.json"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",

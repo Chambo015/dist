@@ -1,11 +1,13 @@
 <template>
   <div class="flex items-start justify-center px-4 lg:px-0 flex-col lg:flex-row">
-    <div class="w-full lg:w-2/5 flex items-center justify-center m-auto shrink-0">
-      <transition name="fade"  mode="out-in">
-        <img v-if="pizzaSize === 0" class="w-3/4" :src="pizzas[curID].images[0]" alt="">
-      <img v-if="pizzaSize === 1" class="w-5/6 " :src="pizzas[curID].images[1]" alt="">
-      <img v-if="pizzaSize === 2" class="w-full" :src="pizzas[curID].images[2]" alt="">
-      </transition>
+    <div class="w-full lg:w-2/5 m-auto flex   items-center justify-center py-3 h-vw-9 lg:h-550">
+     
+        <transition name="fade"  mode="out-in">
+          <img v-if="pizzaSize === 0" class="w-3/4" :src="pizzas[curID].images[0]" alt="">
+        <img v-if="pizzaSize === 1" class="w-5/6 " :src="pizzas[curID].images[1]" alt="">
+        <img v-if="pizzaSize === 2" class="w-full" :src="pizzas[curID].images[2]" alt="">
+        </transition>
+
     </div>
     <div class="lg:px-5 lg:w-2/5 lg:mr-auto mb-9 lg:mb-0">
       <h1 class="text-2xl font-medium mb-5">{{ pizzas[curID].title }}</h1>
@@ -31,7 +33,7 @@
 
 <script>
 import axios from 'axios'
-import { mapGetters, mapState } from 'vuex'
+import { mapGetters } from 'vuex'
 
 export default {
   name: "SinglePage",
@@ -70,7 +72,6 @@ export default {
       return this.totalIngPrice + this.totalSizePrice
     },
     ...mapGetters(['pizzas']),
-    ...mapState(['order']),
   },
   
   methods: {
@@ -87,7 +88,9 @@ export default {
           title: this.pizzas[this.curID].title,
           price: this.totalPrice,
           ingredients: this.ingList,
-          image: this.pizzas[this.curID].images[1]
+          image: this.pizzas[this.curID].images[1],
+          size: this.pizzaSize,
+          id: currentOrder.products.length + 1
         }
         currentOrder.products.push(newOrder)
         currentOrder.totalOfProducts = 0
@@ -103,7 +106,9 @@ export default {
               title: this.pizzas[this.curID].title,
               price: this.totalPrice,
               ingredients: this.ingList,
-              image: this.pizzas[this.curID].images[1]
+              image: this.pizzas[this.curID].images[1],
+              size: this.pizzaSize,
+              id: 1
             }
           ],
           totalOfProducts: this.totalPrice,

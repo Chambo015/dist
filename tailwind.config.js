@@ -19,6 +19,10 @@ module.exports = withAnimations({
       backgroundColor: {
         bgRadio: 'rgb(243, 243, 247)',
       },
+      height: {
+        "vw-9": "90vw",
+        "550": "550px"
+      }
       
     },
   },
