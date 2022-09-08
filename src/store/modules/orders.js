@@ -2,7 +2,7 @@ import axios from 'axios'
 export default {
     actions: {
         async getOrdersAsync({commit}) {
-            let orders = await axios.get('http://localhost:3001/orders')
+            let orders = await axios.get('https://628512d6a48bd3c40b7a955d.mockapi.io/orders')
             commit('setOrdersData', orders.data)
         }
     },

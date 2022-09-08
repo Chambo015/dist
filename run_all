@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#npm run serve && npm run db
+npx vue-cli-service serve && npx json-server db.json --watch --port=3001 --routes routes.json

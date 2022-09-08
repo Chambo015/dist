@@ -2,7 +2,7 @@ import axios from 'axios'
 export default {
     actions: {
          async getPizzasAsync({commit}) {
-             let res = await axios.get('http://localhost:3001/pizza')
+             let res = await axios.get('https://628512d6a48bd3c40b7a955d.mockapi.io/pizza')
              commit('setPizzasData', res.data)
          }
     },

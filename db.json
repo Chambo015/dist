@@ -224,7 +224,7 @@
       "Караганда",
       "Актау"
     ],
-    "select": "Караганда"
+    "select": "Актау"
   },
   "orders": [
     {
@@ -257,13 +257,6 @@
       "id": 1
     },
     {
-      "products": [],
-      "totalOfProducts": 0,
-      "user_login": "era",
-      "status": false,
-      "id": 2
-    },
-    {
       "products": [
         {
           "title": "Домашняя",
@@ -285,9 +278,153 @@
           "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
           "size": 1,
           "id": 1
+        },
+        {
+          "title": "Двойная пепперони",
+          "price": 3750,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/fcb89ab88c7c4c67b7bfe40e33bf2399_584x584.jpeg",
+          "size": 1,
+          "id": 2
+        },
+        {
+          "title": "Домашняя",
+          "price": 3300,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
+          "size": 1,
+          "id": 3
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 5100,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 2,
+          "id": 5
+        },
+        {
+          "title": "Двойная пепперони",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/fcb89ab88c7c4c67b7bfe40e33bf2399_584x584.jpeg",
+          "size": 1,
+          "id": 6
+        },
+        {
+          "title": "Двойная пепперони",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/fcb89ab88c7c4c67b7bfe40e33bf2399_584x584.jpeg",
+          "size": 1,
+          "id": 7
+        },
+        {
+          "title": "Домашняя",
+          "price": 2300,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/54f1bebf8008465e828e573d312816ae_760x760.jpeg",
+          "size": 0,
+          "id": 8
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 9
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 10
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 11
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 12
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3500,
+          "ingredients": [],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 13
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 3850,
+          "ingredients": [
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 14
+        },
+        {
+          "title": "Овощи гриль",
+          "price": 4100,
+          "ingredients": [
+            {
+              "title": "Острый халапеньо",
+              "price": 250,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DB9FFD8DC324",
+              "id": 2
+            },
+            {
+              "title": "Чеддер и пармезан",
+              "price": 350,
+              "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A262427A95111E9DBA9907841D1",
+              "id": 3
+            }
+          ],
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/a402c8aba8a94496a0f71aa0baa975ca_760x760.jpeg",
+          "size": 1,
+          "id": 15
         }
       ],
-      "totalOfProducts": 4450,
+      "totalOfProducts": 51350,
       "user_login": null,
       "status": false,
       "id": 3

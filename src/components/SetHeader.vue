@@ -60,12 +60,12 @@
         <p class="text-sm font-semibold">Додокоины</p>
       </div>
       <button
-          v-if="currentUser != null"
-          @click="showModal = 1"
-          class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white"
-        >
-          {{ currentUser }}
-        </button>
+        v-if="currentUser != null"
+        @click="showModal = 1"
+        class="py-2 px-4 rounded-full bg-gray-200 hover:bg-main hover:text-white"
+      >
+        {{ currentUser }}
+      </button>
       <div class="w-full flex lg:w-auto">
         <button
           v-if="currentUser === null"
@@ -244,23 +244,38 @@
                 <div>
                   <p class="text-lg font-medium mb-2">{{ item.title }}</p>
                   <p class="text-xs mb-2">
-                  {{ pizzaSize[item.size]}}, традиционное тесто
+                    {{ pizzaSize[item.size] }}, традиционное тесто
                   </p>
-                  <p v-if="item.ingredients && item.ingredients.length" class="text-xs">+ <span v-for="(ing, ind) of item.ingredients" :key="ing.title">
-                    {{ing.title}}{{item.ingredients.length - (ind + 1)  ? ', ' : '' }}
-                    </span></p>
+                  <p
+                    v-if="item.ingredients && item.ingredients.length"
+                    class="text-xs"
+                  >
+                    +
+                    <span
+                      v-for="(ing, ind) of item.ingredients"
+                      :key="ing.title"
+                    >
+                      {{ ing.title
+                      }}{{ item.ingredients.length - (ind + 1) ? ', ' : '' }}
+                    </span>
+                  </p>
                 </div>
               </div>
               <div
                 class="flex items-center text-lg font-medium justify-between mt-3"
               >
                 <p>{{ item.price }}</p>
-                <button @click="removePizza(idx)" class="block px-3 py-2 rounded-md bg-slate-200 text-xs">Удалить</button>
+                <button
+                  @click="removePizza(idx)"
+                  class="block px-3 py-2 rounded-md bg-slate-200 text-xs"
+                >
+                  Удалить
+                </button>
               </div>
             </div>
           </transition-group>
         </div>
-        <div class="p-4 bg-white shadow-xl ">
+        <div class="p-4 bg-white shadow-xl">
           <button
             class="py-2 px-4 rounded-lg bg-slate-200 text-black w-full mb-5"
             @click="removeOrder"
@@ -331,29 +346,29 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios';
 
 export default {
-  name: "SetHeader",
+  name: 'SetHeader',
   data() {
     return {
       pizzaSize: {
-        "0": "Маленькая 25 см",
-        "1": "Средняя 30 см",
-        "2": "Большая 35 см",
+        0: 'Маленькая 25 см',
+        1: 'Средняя 30 см',
+        2: 'Большая 35 см',
       },
-      selectedCity: "Караганда",
+      selectedCity: 'Нур-Султан',
       showSelectCity: false,
-      cities: [],
+      cities: ['Нур-Султан', 'Алматы', 'Караганда', 'Актау'],
       category: [
-        "Пицца",
-        "Комбо",
-        "Закуски",
-        "Десерты",
-        "Напитки",
-        "Другие товары",
-        "Акции",
-        "Контакты",
+        'Пицца',
+        'Комбо',
+        'Закуски',
+        'Десерты',
+        'Напитки',
+        'Другие товары',
+        'Акции',
+        'Контакты',
       ],
       show: false,
       showCart: 0,
@@ -361,7 +376,7 @@ export default {
       showModalReg: 0,
       showError: 0,
       users: null,
-      currentUser: localStorage.getItem("loggedUser"),
+      currentUser: localStorage.getItem('loggedUser'),
       orders: null,
       activeOrder: null,
       form: {
@@ -379,50 +394,59 @@ export default {
   computed: {
     countOrders() {
       return this.activeOrder ? this.activeOrder.products.length : 0;
-    }
+    },
   },
   async mounted() {
-    let res = await axios.get("http://localhost:3001/users");
+    let res = await axios.get(
+      'https://628512d6a48bd3c40b7a955d.mockapi.io/users'
+    );
     this.users = res.data;
 
-    await this.$store.dispatch('getOrdersAsync')
-    this.activeOrder = this.$store.getters.order(this.currentUser)
-
-    const citiesData = await axios.get("http://localhost:3001/cities");
-    this.cities = citiesData.data["data"];
-    this.selectedCity = citiesData.data["select"];
+    await this.$store.dispatch('getOrdersAsync');
+    this.activeOrder = this.$store.getters.order(this.currentUser);
   },
   methods: {
     async endOrder() {
-      if(this.activeOrder) {
-        let index = this.$store.getters.order(this.currentUser, true)
-        this.activeOrder.status = true
-        await axios.put("http://localhost:3001/orders/" + index, this.activeOrder)
+      if (this.activeOrder) {
+        let index = this.$store.getters.order(this.currentUser, true);
+        this.activeOrder.status = true;
+        await axios.put(
+          'https://628512d6a48bd3c40b7a955d.mockapi.io/orders/' + index,
+          this.activeOrder
+        );
         this.$router.go();
       }
     },
     async removePizza(idx) {
-      this.activeOrder.products.splice(idx, 1)
-      this.activeOrder.totalOfProducts = 0
-      this.activeOrder.products.forEach(element => {
-        this.activeOrder.totalOfProducts = this.activeOrder.totalOfProducts + element.price
+      this.activeOrder.products.splice(idx, 1);
+      this.activeOrder.totalOfProducts = 0;
+      this.activeOrder.products.forEach((element) => {
+        this.activeOrder.totalOfProducts =
+          this.activeOrder.totalOfProducts + element.price;
       });
-      await axios.put('http://localhost:3001/orders/' + this.activeOrder.id, this.activeOrder)
+      await axios.put(
+        'https://628512d6a48bd3c40b7a955d.mockapi.io/orders/' +
+          this.activeOrder.id,
+        this.activeOrder
+      );
     },
     async removeOrder() {
-      await axios.delete('http://localhost:3001/orders/' + this.activeOrder.id)
-      .then(() => this.$router.go())
-
+      await axios
+        .delete(
+          'https://628512d6a48bd3c40b7a955d.mockapi.io/orders/' +
+            this.activeOrder.id
+        )
+        .then(() => this.$router.go());
     },
-    async sendSelectCity(e) {
+    sendSelectCity(e) {
       this.showSelectCity = false;
-      await axios.patch("http://localhost:3001/cities", { select: e });
+      this.selectedCity = e;
     },
     showCityList(e) {
       this.showSelectCity = true;
-      const cityMenuElem = document.querySelector(".abs-city");
-      cityMenuElem.style.top = e.target.offsetTop + 20 + "px";
-      cityMenuElem.style.left = e.target.offsetLeft + "px";
+      const cityMenuElem = document.querySelector('.abs-city');
+      cityMenuElem.style.top = e.target.offsetTop + 20 + 'px';
+      cityMenuElem.style.left = e.target.offsetLeft + 'px';
     },
     validateUser() {
       this.users.forEach((element) => {
@@ -430,20 +454,20 @@ export default {
           this.form.login === element.login &&
           this.form.password === element.password
         ) {
-          localStorage.setItem("loggedUser", element.login);
+          localStorage.setItem('loggedUser', element.login);
           this.$router.go();
-        } else if (this.form.login === "" || this.form.login === null) {
-          console.log("Поле логина пустое");
+        } else if (this.form.login === '' || this.form.login === null) {
+          console.log('Поле логина пустое');
           this.showError = 1;
         }
       });
     },
     logout() {
-      localStorage.removeItem("loggedUser");
+      localStorage.removeItem('loggedUser');
       this.$router.go();
     },
     async registerUser() {
-      await axios.post("http://localhost:3001/users", {
+      await axios.post('https://628512d6a48bd3c40b7a955d.mockapi.io/users', {
         login: this.reg.login,
         phone: this.reg.phone,
         name: this.reg.name,

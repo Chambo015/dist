@@ -45,7 +45,7 @@ export default {
           currentOrder.totalOfProducts = currentOrder.totalOfProducts + element.price
         });
 
-        await axios.put('http://localhost:3001/orders/' + currentOrder.id, currentOrder)
+        await axios.put('https://628512d6a48bd3c40b7a955d.mockapi.io/orders/' + currentOrder.id, currentOrder)
       } else {
         let newOrder = {
           products: [
@@ -62,7 +62,7 @@ export default {
           user_login: localStorage.getItem('loggedUser'),
           status: false
         }
-        await axios.post('http://localhost:3001/orders', newOrder)
+        await axios.post('https://628512d6a48bd3c40b7a955d.mockapi.io/orders', newOrder)
       }
         this.$router.go()
       } 

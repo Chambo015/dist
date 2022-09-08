@@ -4,8 +4,8 @@
      
         <transition name="fade"  mode="out-in">
           <img v-if="pizzaSize === 0" class="w-3/4" :src="pizzas[curID].images[0]" alt="">
-        <img v-if="pizzaSize === 1" class="w-5/6 " :src="pizzas[curID].images[1]" alt="">
-        <img v-if="pizzaSize === 2" class="w-full" :src="pizzas[curID].images[2]" alt="">
+          <img v-if="pizzaSize === 1" class="w-5/6 " :src="pizzas[curID].images[1]" alt="">
+          <img v-if="pizzaSize === 2" class="w-full" :src="pizzas[curID].images[2]" alt="">
         </transition>
 
     </div>
@@ -98,7 +98,7 @@ export default {
           currentOrder.totalOfProducts = currentOrder.totalOfProducts + element.price
         });
 
-        await axios.put('http://localhost:3001/orders/' + currentOrder.id, currentOrder)
+        await axios.put('https://628512d6a48bd3c40b7a955d.mockapi.io/orders/' + currentOrder.id, currentOrder)
       } else {
         let obj = {
           products: [
@@ -115,7 +115,7 @@ export default {
           user_login: localStorage.getItem('loggedUser'),
           status: false
         }
-        await axios.post('http://localhost:3001/orders', obj)
+        await axios.post('https://628512d6a48bd3c40b7a955d.mockapi.io/orders', obj)
       }
         this.$router.go()
       } 

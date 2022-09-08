@@ -6,7 +6,8 @@ import SinglePage from '@/components/SinglePage'
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: 'history',
+  mode: 'hash',
+  base: 'dodopizza',
   routes: [
     {
       path: '/',
