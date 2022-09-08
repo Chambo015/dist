@@ -1,4 +1,11 @@
-# firstproject
+# DODO Pizza Pet project
+* Vue
+* Vuex
+* Vue router
+* axios
+* Tailwind
+* mockapi
+
 
 ## Project setup
 ```
